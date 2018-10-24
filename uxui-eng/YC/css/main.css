@@ -1,0 +1,276 @@
+ @charset "UTF-8";
+/* CSS Document */
+
+/*----- LOADER------*/ 
+
+#pageloader{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center; /* center children content horizontally */
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center; /* center children content vertically */
+	z-index: 10000;
+	background: #F1973E;
+}
+	
+
+#pageloader.dimissloader{
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: opacity 1s, visibility 0s 1s;
+	transition: opacity 1s, visibility 0s 1s;
+}
+
+.spinner {
+  width: 70px;
+  text-align: center;
+	opacity: 1;
+	-webkit-transition: opacity .4s;
+	transition: opacity .4s;
+}
+
+.spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color:#FFFFFF;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 40% { 
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+}
+
+
+
+/*------------NAV BAR------------*/
+.logo1{
+	width: 5rem;
+	margin: 1rem;
+}
+.navbar{
+	font-family: "Avenir Next Medium", sans-serif;	
+	font-size: 1rem;
+}
+.nav-item{
+	padding-left:2rem;
+
+}
+.nav-link:hover{
+	color: #F49A3F !important;
+}
+
+/*------------Carousel------------*/
+.carousel-item{
+	width:100%;
+}
+/*------------Buttons------------*/
+
+.info1{
+	background-image: url(../img/back1.jpg);
+	background-size: cover;
+	padding: 2rem;
+}
+.info2{
+	background-image: url(../img/be.jpg);
+	background-size: cover;}
+
+.buttonsmain{
+	align-items: center;
+ 	justify-content: center;
+	font-family: "Avenir Next Medium", sans-serif;
+	
+}
+.btn{
+		padding:2rem;
+		margin:2rem;
+
+}
+.bt1{
+	background-color: #F1973E ;
+	color: white;
+}
+.bt1:hover{
+	background-color:#FADFD1;
+}
+.bi1{
+ 	width:3rem;
+}
+.bt2{
+	background-color: #E57D1F;
+	color: white;
+}
+.bt2:hover{
+	background-color:#FADFD1;
+}
+.bt3{
+	background-color: #DA6626;
+	color:white;
+}
+.bt3:hover{
+	background-color:#FADFD1;
+}
+.bt4{
+	background-color: #FF7E3E;
+	color:white;
+}
+.bt4:hover{
+	background-color:#FADFD1;
+}
+	.btn-primary{
+	margin-bottom:2rem;
+	margin-right: 2rem;
+	margin-top:2rem;
+	margin-left: 2rem;
+	
+}
+.title{
+    align-items: center;
+ 	justify-content: center;
+	text-shadow:2px 2px #FFFFFF;
+
+}
+/*------------About US------------*/
+.aboutus{
+	background-image:url(../img/back2.jpg);
+	background-size:cover;
+	color: #FFFFFF;
+	padding: 2rem;
+	font-size:1rem;
+}
+.yc{
+	width: 50%;
+}
+.yc1{
+	width:50%
+}
+.yc2{
+	width:100%
+}
+@media only screen and (max-width: 800px) {
+	.yc1{
+		display: none;
+	}
+
+	}
+.title2{
+	margin-top: 2rem;
+	margin-bottom:1rem;
+	text-shadow:2px 2px #FF7E3E;
+	align-items: center;
+ 	justify-content: center;
+	color:white;
+
+
+}
+/*------------PARENT INTRO------------*/
+
+.parentintro{
+		background-color:#2F97C7;
+		color: #FFFFFF;
+}
+.parent2{
+	padding:2rem;
+	font-size:1rem;
+	text-align: center;
+
+}
+.parentintro{
+	background-image: url(../img/back3.jpg);
+	background-size: cover;
+}
+/*------------FOOTER------------*/
+
+.footer{
+	background-color:#D9D9D9;
+	padding:2rem;
+	text-align:center;
+}
+/*------------CODING------------*/
+.link1{
+	  color:black !important;
+}
+.link1:hover{
+	text-decoration: none!important;
+}
+.text1{
+	font-size: 1rem;
+}
+.table {
+   display: block !important;
+}
+.cost{
+	padding:2rem;
+}
+.logo{
+	width: 5rem;
+}
+@media only screen and (max-width: 800px) {
+	table td:nth-child(2), 
+	table th:nth-child(2) {display: none;
+
+	}
+}
+@media only screen and (max-width: 800px) {
+	table td:nth-child(5), 
+	table th:nth-child(5) {display: none;
+
+	}
+}
+@media only screen and (max-width: 800px) {
+	table td:nth-child(4), 
+	table th:nth-child(4) {display: none;
+
+	}
+}
+.classes{
+	padding:3rem;
+	text-align: center;
+}
+
+.text2{
+		color:gray;
+		text-align: center;
+	
+}
+
+/*------------FOOTER------------*/
+.icon{
+	align-items: center;
+ 	justify-content: center;
+ 	margin: 1rem;
+	width:40px;
+	height: 40px;
+}

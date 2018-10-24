@@ -1,0 +1,64 @@
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1366 706.9" style="enable-background:new 0 0 1366 706.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#d1d3d4;stroke-width:3.6;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#f2f2f2;stroke-width:3.6;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#c9c9c9;stroke-width:3.6;stroke-miterlimit:10;}
+	
+	#RED{
+	stroke-dasharray:1200;
+	stroke-dashoffset:0;
+	animation-timing-function:ease-in-out;
+	-webkit-animation: dash 3s linear infinite alternate;
+	-moz-animation: dash 3s linear infinite alternate;
+	animation: dash 3s linear infinite alternate;
+	}
+	@-webkit-keyframes dash {
+	from{stroke-dashoffset:1200;}
+	to{stroke-dashoffset:0;}
+	}
+	
+	#GREEN{
+	stroke-dasharray:1300;
+	stroke-dashoffset:0;
+	animation-timing-function:ease-in-out;
+	-webkit-animation: dash 4s linear infinite alternate;
+	-moz-animation: dash 4s linear infinite alternate;
+	animation: dash 4s linear infinite alternate;
+	
+
+	}
+	@-webkit-keyframes dash {
+	from{stroke-dashoffset:1300;}
+	to{stroke-dashoffset:0;}
+	}
+	
+	#BLUE{
+	stroke-dasharray:1500;
+	stroke-dashoffset:0;
+	animation-timing-function:ease-in-out;
+	-webkit-animation: dash 3s linear infinite alternate;
+	-moz-animation: dash 3s linear infinitealternate;
+	animation: dash 3s linear infinite alternate;
+	}
+	@-webkit-keyframes dash {
+	from{stroke-dashoffset:1500;}
+	to{stroke-dashoffset:0;}
+	}
+	
+</style>
+	
+	
+	
+<g id="RED">
+	<path class="st0" d="M-0.5,104.6c0,0,110-89,274-9s191,126,299,297s296,161,412,8s147-348,389-319"/>
+</g>
+<g id="GREEN">
+	<path class="st1" d="M-8,436.1c0,0,107-23,157-162s237-160,310-105s223,142,362,36s152.8-179.7,233-191c71-10,128,10,153,39
+		c45.1,52.3,110,195,159,185"/>
+</g>
+<g id="BLUE">
+	<path class="st2" d="M-8,264.1c8-1,148-78.8,232,124c94,227,347,79,424,30s221-13,277,124s212,188,299,125s123-89,149-77"/>
+</g>
+</svg>
